@@ -163,13 +163,17 @@
   <ItemGroup>
     <ClCompile Include="src\first_app.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\vt_device.cpp" />
     <ClCompile Include="src\vt_pipeline.cpp" />
     <ClCompile Include="src\vt_window.cpp" />
+    <ClCompile Include="src\vt_swap_chain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\first_app.hpp" />
+    <ClInclude Include="src\vt_device.hpp" />
     <ClInclude Include="src\vt_pipeline.hpp" />
     <ClInclude Include="src\vt_window.hpp" />
+    <ClInclude Include="src\vt_swap_chain.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\shaders\simple_shader.vert" />
